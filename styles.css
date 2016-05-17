@@ -1,0 +1,45 @@
+.grid {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #0099FF;
+    width:100px;
+    height:100px;
+    text-align: center;
+    font-family: 'Oswald';
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.grid hover, .grid active {
+    cursor: hand;
+}
+
+#screen {
+    border: 2px solid white;
+    height: 100px;
+    width: 424px;
+    border-radius: 5px;
+    margin-left: 3px;
+    background-color: #3399FF ;
+}
+
+h1 {
+    font-family: 'Oswald';
+    text-decoration:underline;
+}
+
+p {
+    font-family: 'Oswald';
+    font-size: 30px;
+    margin-left: 15px;
+    color: white;
+}
+
+html { 
+  background: url(nature.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
